@@ -1,0 +1,33 @@
+# ── Mardez Consulting Group LLC ──────────────────────────────
+title: Mardez Consulting Group
+tagline: Compliance, risk, and technical documentation for government and tribal clients.
+email: contact@mardezconsulting.com          # placeholder — swap in real inbox
+description: >-
+  Oklahoma-based, veteran-owned consulting for OSHA compliance,
+  security and risk assessment, technical writing, and IT consulting.
+
+# Firm facts surfaced in the hero spec-block + footer.
+# Edit these once here; they render everywhere.
+firm:
+  legal_name: Mardez Consulting Group LLC
+  entity: Oklahoma Limited Liability Company
+  status: Veteran-Owned
+  region: Oklahoma & Tribal Jurisdictions
+  uei: "Pending"        # UEI / SAM.gov registration in progress
+  cage: "Pending"       # CAGE code in progress
+  founded: "2026"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+sass:
+  style: compressed
+
+# GitHub Pages safe. If you later add plugins, list them here.
+plugins: []
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - preview.html
