@@ -1,0 +1,15 @@
+<footer class="site-foot">
+  <div class="site-foot__grid">
+    <div class="site-foot__id">
+      <p class="site-foot__legal">{{ site.firm.legal_name }}</p>
+      <p class="site-foot__line">{{ site.firm.entity }} · {{ site.firm.region }}</p>
+    </div>
+    <dl class="doc-control" aria-label="Registration details">
+      <div><dt>Status</dt><dd>{{ site.firm.status }}</dd></div>
+      <div><dt>UEI</dt><dd>{{ site.firm.uei }}</dd></div>
+      <div><dt>CAGE</dt><dd>{{ site.firm.cage }}</dd></div>
+      <div><dt>Rev</dt><dd>{{ site.firm.founded }}.01</dd></div>
+    </dl>
+  </div>
+  <p class="site-foot__fine">© {{ site.firm.founded }} {{ site.firm.legal_name }}. All rights reserved.</p>
+</footer>
