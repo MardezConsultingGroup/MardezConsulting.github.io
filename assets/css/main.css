@@ -93,7 +93,7 @@ a { color: inherit; }
 .wordmark__mark {
   font-family: var(--f-display); font-weight: 800;
   display: grid; place-items: center;
-  width: 34px; height: 34px;
+  width: 40px; height: 40px;
   background: var(--ink); color: var(--amber);
   font-size: 1.15rem;
 }
