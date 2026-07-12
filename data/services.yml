@@ -1,1 +1,42 @@
+# Edit services here — index.html loops over this list.
+# code = the mono service tag; ref = the standards/vernacular line under it.
 
+- code: "SVC-01"
+  title: "OSHA Compliance"
+  ref: "29 CFR 1910 / 1926"
+  body: >-
+    Program development, gap analysis, and audit prep for general
+    industry and construction. Written procedures, inspection
+    checklists, and corrective-action tracking your people can actually use.
+
+- code: "SVC-02"
+  title: "Risk & Security Assessment"
+  ref: "NIST / physical + cyber"
+  body: >-
+    Threat and vulnerability assessments across physical and information
+    security. Findings prioritized by likelihood and impact, with a
+    remediation roadmap that fits the budget.
+
+- code: "SVC-03"
+  title: "Technical Writing"
+  ref: "S1000D / ASD-STE100"
+  body: >-
+    Standards-compliant documentation: maintenance manuals, SOPs, and
+    IETMs. Structured authoring, controlled language, and a publish
+    pipeline built for revision control.
+
+- code: "SVC-04"
+  title: "IT Consulting"
+  ref: "infrastructure / security"
+  body: >-
+    Practical infrastructure and security guidance for small teams and
+    tribal agencies. Right-sized systems, hardening, and documentation
+    that survives staff turnover.
+
+- code: "SVC-05"
+  title: "Government Contracting"
+  ref: "federal / municipal / tribal"
+  body: >-
+    Capability positioning and compliance support for agencies and
+    prime contractors. Built by people who write to the standard, not
+    around it.
